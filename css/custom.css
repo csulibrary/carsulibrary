@@ -324,6 +324,7 @@ body{
   font-size: 15px;
 }
 .personnel-gal{
+  padding-top: 50px;
   background: #DBDAD7;
   width: 100%;
   padding-bottom: 10px;
@@ -996,4 +997,8 @@ label{
 }
 .hidden{
   display: none;
+}
+.nav-top-bg{
+  background: #232222;
+  height: 60px;
 }
