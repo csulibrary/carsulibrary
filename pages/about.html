@@ -32,6 +32,293 @@
     </head>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top other-pages" id="mainNav">
+      <div class="container-fluid">
+        <a class="navbar-brand js-scroll-trigger library-home" href="#page-top">
+          <img src = "./../img/logo/csu.png" class = "logo"/>
+          CSU Library
+        </a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" id = "toggle-btn" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="link" href="https://csulibrary.github.io/carsulibrary/" id = "home-library">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="link" href="http://www.carsu.edu.ph/" target = "_blank">CSU HomePage</a>
+            </li>
+            <li class="nav-item">
+              <a class="link" href="./personnel.html" id = "personnel-library" target = "_blank">Personnel</a>
+            </li>
+            <li class="nav-item">
+              <a class="link" href="./sectiongallery.html" id = "section-library"  target = "_blank">Section Gallery</a>
+            </li>
+            <li class="nav-item" id = "online-access">
+              <a class = "link" href="#" id ="online-acc">Online Access <i class = "fa fa-chevron-down"> </i></a>
+              <ul class = "first-level">
+                <li class = "link "><a href="http://mylibrary.carsu.edu.ph/" target = "_blank">Web OPAC/Book Catalog</a></li>
+                <!--<li class = "link "><a href="#">Online Portal Information</a></li>!-->
+                <li class = "link "><a href="https://drive.google.com/drive/folders/10VykxJ5P2C_OwVsF0Ym_ef4TUuFdq9I6?usp=sharing" target = "_blank">Data Upload</a></li>
+                <li class = "link "><a href="files/list_cd/cd.xlsx" target = "_blank">List of CD-ROM</a></li>
+                <li class = "link "><a href="https://drive.google.com/open?id=1fJwZymCkf9cZzWE8oCrcIhUN3eFpy5WQ" target = "_blank" >e-books</a></li>
+                <li class = "link"><a href="http://www.carsu.edu.ph/?q=research-output-view" target = "_blank">Research Articles</a></li>
+                <li class = "link"><a href="#" data-toggle="modal" data-target="#eResources">e-resources</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="link" href="#" data-toggle="modal" data-target="#featuresModal">Features</a></li>
+            <li class="nav-item">
+              <a class="link" href="./about.html" id = "about-library" target = "_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="link" href="./services.html" id = "services-library" target = "_blank">Services</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Start of Features Modal!-->
+    <div class="modal fade" id="featuresModal" tabIndex="-1" role="dialog" aria-labelledby="featuresModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="custom-modal-title" id="featuresModal"> Features</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class = "features-div">
+
+            <h5> Research Clinic </h5>
+            <img src = "./../images/features/research_clinic.jpg"/>
+            <br/>
+            <br/>
+
+            <h5> Virtual Library Tour </h5>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/Lv0URTSBniY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br/>
+            <br/>
+
+            <h5> Library Orientation </h5>
+            <iframe class = "full-feature" src = "./../images/features/orientation/orientation.html"> </iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Features Modal!-->
+
+    <!--Start of e Resources Modal!-->
+    <div class="modal fade" id="eResources" tabIndex="-1" role="dialog" aria-labelledby="eResourcesModal" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="custom-modal-title" id="eResourcesModal">Open Access Resources</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class = "container" id = "custom-modal-body">
+
+              <div class= "row" id = "eResource">
+                <div>
+                  <a href= "http://web.nlp.gov.ph/" target = "_blank"> Philippine eLib </a>
+                  <p> The Philippine eLib is a collaborative project of the National Library of the Philippines (NLP), University of the Philippines (UP), Department of Science and Technology (DOST), Department of Agriculture (DA), and the Commission on Higher Education (CHED).</p>
+                </div>
+                <div>
+                  <a href= "http://infotrac.galegroup.com/itweb/phcarsu/" target = "_blank"> InfoTrac </a>
+                  <p> InfoTrac provides what 21st-century researchers expect: instant access to complete, up-to-date content. Put the world’s leading journals and reference sources at your users’ fingertips, with easy-to-use features and unique search tools enabling discovery.</p>
+                </div>
+                <div>
+                  <a href= "http://www.aardvarknet.info/" target = "_blank"> Aardvarknet.info (Asian Resources for Librarians) </a>
+                  <p> provides direct links to various free Asian online databases and fulltext electronic journals. Searchable and browsable. Subjects include library and information science, medical sciences, social sciences, agriculture, education, science and technology. </p>
+                </div>
+
+                <div>
+                  <a href= "http://citeseer.ist.psu.edu/" target = "_blank"> CiteSeer</a>
+                  <p> is a scientific literature digital library and search engine that focuses primarily on the literature in computer and information science. CiteSeer indexes the full-text of the entire articles and citations. Full boolean, phrase and proximity search is supported.</p>
+                </div>
+
+                <div>
+                  <a href= "http://crl.acrl.org/" target = "_blank"> College & Research Libraries (C&RL)</a>
+                  <p> College & Research Libraries (C&RL) is the official, bi-monthly, online-only scholarly research journal of the Association of College & Research Libraries, a division of the American Library Association. </p>
+                </div>
+
+                <div>
+                  <a href= "http://www.dlib.org/" target = "_blank">D-Lib Magazine </a>
+                  <p> is a solely electronic ation with a primary focus on digital library research and development, including but not limited to new technologies, applications, and contextual social and economic issues.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.dlib.org/" target = "_blank">Directory of Open Access Journals (DOAJ)</a>
+                  <p> is a database of the University of Lund (Sweden) which provides access to quality controlled scientific Open Access Journals covering several subject areas. Open access journals use a funding model that does not charge the readers. Approximately 1,670 titles are available in full text. Currently 414 journals are searchable at article level. As of today 76,402 articles are included in the DOAJ service.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.ebookdirectory.com/" target = "_blank">eBook Directory</a>
+                  <p> is the biggest directory of free downloadable ebooks online. All ebooks on the site are free to download and will always be free.</p>
+                </div>
+
+                <div>
+                  <a href= "http://enr.construction.com/" target = "_blank">ENR: Engineering News-Record</a>
+                  <p> Engineering News-Record provides the engineering and construction news, analysis, commentary and data that construction industry professionals need to do their jobs more effectively. ENR reports on the top design firms, both architects and engineers, and the top construction companies as well as projects in the United States and around the world. Our products include a weekly magazine with more than 47,812 paid subscribers, a website with over 196,000 unique visitors a month and a series of in-person events. </p>
+                </div>
+
+                <div>
+                  <a href= "https://scholar.google.com.ph/" target = "_blank">Google Scholar</a>
+                  <p> It enables you to search specifically for scholarly literature, including peer-reviewed papers, theses, books, preprints, abstracts and technical reports from all broad areas of research. Use Google Scholar to find articles from a wide variety of academic publishers, professional societies, preprint repositories and universities, as well as scholarly articles available across the web."</p>
+                </div>
+
+                <div>
+                  <a href= "http://highwire.stanford.edu/" target = "_blank">HighWire Press, Internet Imprint of the Standford University Libraries</a>
+                  <p> Over 15 million articles from over 4,500 PubMed journals, including 939,111 free full text articles and from 868 HighWire-hosted journals. Covering several subject areas.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.herdin.ph/" target = "_blank">Health Research and Development Information Network (HERDIN)</a>
+                  <p> HERDIN database provides quick and easy access to more than 50,000 citation and bibliographic information from published (Philippine health research journals , conference/convention proceedings, International databases and ations) and unpublished (research institutions research projects and reports, thesis and dissertations) health researches in the country. Citations may include links to full-text content from publisher web sites or downloadable at HERDIN.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.healthinternetwork.net/" target = "_blank">HINARI (Health InterNetwork Access to Research Initiative)</a>
+                  <p> It provides free or very low cost online access to 2300 major journals in biomedical and related social sciences to local, non-profit and academic institutions in the health sector in 113 developing countries.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.hprweb.com/" target = "_blank">Homiletic and Pastoral Review</a>
+                  <p> America’s Leading Pastoral Magazine. Founded over one hundred years ago, Homiletic & Pastoral Review is one of the most well-respected pastoral magazines in the world. Priests and laymen alike have relied on HPR for decades. </p>
+                </div>
+
+                <div>
+                  <a href= "http://journals.upd.edu.ph/index.php/jpl" target = "_blank">Journal of Philippine Librarianship (JPL)</a>
+                  <p> is an annual ation of the School of Library and Information Studies of the University of the Philippines (UPSLIS). It covers all aspects of library, archival and information studies in the Philippines.</p>
+                </div>
+
+                <div>
+                  <a href= "http://lj.libraryjournal.com/" target = "_blank">Library Journal</a>
+                </div>
+                <br/>
+                <br/>
+
+                <div>
+                  <a href= "http://oaister.worldcat.org/" target = "_blank">OAIster</a>
+                  <p> is a project of the University of Michigan Digital Library Production Service which aims  to create a collection of freely available, previously difficult-to-access, academically-oriented digital resources  that are easily searchable by anyone. It has 5,740, 091 records from 522 different institutions.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.onlineschools.org/open-access-journals/" target = "_blank">Open Access Journals</a>
+                  <p> Open Access Journals provide a comparable selection of journals that are highly useful to students across disciplines. </p>
+                </div>
+
+                <div>
+                  <a href= "http://biology.plosjournals.org/" target = "_blank">PLoS Biology</a>
+                  <p> is a peer-reviewed, open-access journal published by the  Library of Science (PLoS), a non-profit organization committed to making scientific and medical literature a  resource.</p>
+                </div>
+
+                <div>
+                  <a href= "http://journals.plos.org/plosone/" target = "_blank">PLOS One</a>
+                  <p> is a peer-reviewed open access journal published by the  Library of Science. The best thing about this database is that it provides information on online article usage, citations to the article, and other indicators of impact. The regularly updated data fall into the following categories: Citations, Article Usage, Media and Blog Coverage About The Article, Social Tools for Reference Management as well as Research Recommendation and Evaluation, PLOS Reader Evaluation.​</p>
+                </div>
+
+                <div>
+                  <a href= "http://popline.org/" target = "_blank">POPLINE (POPulation Information onLINE)</a>
+                  <p> provides worldwide coverage of population, family planning, and related health issues, including family planning technology and programs, fertility, and population law and policy.​</p>
+                </div>
+
+                <div>
+                  <a href= "http://projecteuclid.org/" target = "_blank">Project Euclid </a>
+                  <p> Cornell University Library is proud to launch Project Euclid, an initiative to advance effective and affordable scholarly communication in theoretical and applied mathematics and statistics.</p>
+                </div>
+
+                <div>
+                  <a href= "http://pubchem.ncbi.nlm.nih.gov/" target = "_blank">PubChem</a>
+                  <p> is a freely accessible database created by NIH in 2004 to provide information about small organic molecules. It is designed for use as a research tool and as a starting point that may lead to the development of new medications. The database connects chemical information with biomedical research and clinical information, organizing facts in numerous databases into a unified whole.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.ssrn.com/" target = "_blank">Social Science Research Network (SSRN)</a>
+                  <p> consists of two parts: an Abstract Database containing abstracts on over 30,900 scholarly working papers and forthcoming papers and an Electronic Paper Collection currently containing over 15,000 downloadable full text documents.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.worldpopdata.org/" target = "_blank">World Population Data</a>
+                  <p> Every year, Population Reference Bureau (PRB) provides the latest demographic data for the world, global regions, and more than 200 countries. This year’s special focus, “Human Needs, Sustainable Resources,” is the subject of our Insights feature. Explore the data in new map and chart tools. Compare countries’ population projections in the data visualization.</p>
+                </div>
+
+                <div>
+                  <a href= "https://www.omicsonline.org/" target = "_blank">OMICS International</a>
+                  <p> OMICS International (and its subsidiaries), is an Open Access publisher and international conference Organizer, which owns and operates 700 peer-reviewed Clinical, Medical, Life Sciences, and Engineering & Technology journals and hosts 3000 scholarly conferences per year in the fields of clinical, medical, pharmaceutical, life sciences, business, engineering, and technology. Our journals have more than 15 million readers and our conferences bring together internationally renowned speakers and scientists to create exciting and memorable events, filled with lively interactive sessions and world-class exhibitions and poster presentations. </p>
+                </div>
+
+                <div>
+                  <a href= "http://www.sciencepublishinggroup.com" target = "_blank">Science Publishing Group</a>
+                  <p> Science Publishing Group is an independent academic publisher with an editorial team comprising many of the world's leading researchers. Science Publishing Group provides journal publishing service, Special Issue publishing service, book publishing service and conference paper publishing service.</p>
+                </div>
+
+                <div>
+                  <a href= "https://bookboon.com/" target = "_blank">Bookboon</a>
+                  <p>Bookboon is currently the world's largest online publishing company of eBooks. In 2015 over 50 million eBooks were downloaded from the site. It is focused on publishing student literature for engineering, IT and business students as well as short and practical business books.</p>
+                </div>
+
+                <div>
+                  <a href= "https://www.springer.com/gp/" target = "_blank">Springer</a>
+                  <p>Springer is a leading global scientific, technical and medical portfolio, providing researchers in academia, scientific institutions and corporate R&D departments with quality content through innovative information, products and services.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.freebookcentre.net/" target = "_blank">Freebookcentre.net</a>
+                  <p>Freebookcentre.net contains links to thousands of free online technical books. Which Include core computer science, networking, programming languages, Systems Programming books, Linux books and many more. You are welcome to follow the following links for the free books tour.</p>
+                </div>
+
+                <div>
+                  <a href= "https://www.getfreeebooks.com/" target = "_blank">GetFreeEbooks</a>
+                  <p>A site that brings both authors and readers into the world of free legal ebooks. Authors with their ebooks will benefit greatly from the large community of readers and the readers will in return, of course, will have lots of materials to read to their hearts’ content.</p>
+                </div>
+
+                <div>
+                  <a href= "https://play.google.com/store/books/collection/topselling_free/" target = "_blank">Google eBookstore</a>
+                  <p>In the free section of the Google eBookstore, you'll find a ton of free books from a variety of genres. Look here for bestsellers, favorite classics, and more. Books are available in several formats, and you can also check out ratings and reviews from other users.</p>
+                </div>
+
+                <div>
+                  <a href= "http://www.gutenberg.org/" target = "_blank">Project Gutenberg</a>
+                  <p>The Open Library has more than one million free e-books available. This library catalog is an open online project of Internet Archive, and allows users to contribute books. You can easily search by the title, author, and subject.</p>
+                </div>
+
+                <div>
+                  <a href= "https://archive.org/" target = "_blank">Internet Archive</a>
+                  <p>If you're looking for out-of-print books in different languages and formats, check out this non-profit digital library. The Internet Archive is a great go-to if you want access to historical and academic books.</p>
+                </div>
+
+                <div>
+                  <a href= "http://manybooks.net/" target = "_blank">ManyBooks.net</a>
+                  <p>With more than 29,000 free e-books at your fingertips, you're bound to find one that interests you here. You have the option to browse by most popular titles, recent reviews, authors, titles, genres, languages, and more. These books are compatible for Kindles, iPads and most e-readers.</p>
+                </div>
+
+                <div>
+                  <a href= "https://librivox.org/" target = "_blank">LibriVox</a>
+                  <p>Want to listen to books instead? LibriVox is home to thousands of free audiobooks, including classics and out-of-print books.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of e Resources Modal!-->
+    <div class = "nav-top-bg">
+    </div>
       <div id = "about">
         <div class = "container">
           <div class = "row">
@@ -82,6 +369,76 @@
             <SideContent/>
           </div>
       </div>
+    </div>
+    <div class = "footer" id = "footer">
+      <div class = "container">
+        <div class = "row">
+          <div class = "col-lg-4">
+            <h4 class = "like center"> Library Hours</h4>
+              <div class = "row center">
+                <div class = "col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                  <h5> Undergraduate </h5>
+                  <p class = "head"> Monday - Friday </p>
+                  <p class = "time"> 8:00 AM - 6:00 PM </p>
+                  <h5 class = "noonbreak"> No Noon Break </h5>
+                  <p class = "head"> Saturday </p>
+                  <p class = "time"> 8:00 AM - 12:00 PM </p>
+                </div>
+                <div class = "col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                  <h5> Graduate </h5>
+                  <p class = "head"> Monday - Friday </p>
+                  <p class = "time"> 8:00 AM - 6:00 PM </p>
+                  <h5 class = "noonbreak"> No Noon Break </h5>
+                  <p class = "head"> Saturday </p>
+                  <p class = "time"> 8:00 AM - 5:00 PM </p>
+
+                </div>
+
+
+              </div>
+          </div>
+          <div class = "col-lg-4">
+            <h4 class = "center"> Contact Us </h4>
+            <p class = "location center"> Caraga State University </p>
+            <p class = "center"> Ampayon, Butuan City, 8600 </p>
+            <p class = "center"> Like our Facebook Page &nbsp; <a href = "https://www.facebook.com/carsulibrary/" target="_blank"> <i class="fab fa-lg fa-facebook-square"></i></a> </p>
+            <p class = "center"> Message Us on Messenger <a href = "https://m.me/carsulibrary" target = "_blank">  <i class="fab fa-facebook-messenger fa-lg"></i> </a> </p>
+            <p class = "center"> Email us @ csulibrary@carsu.edu.ph  <i class="fas fa-envelope fa-lg"></i> </p>
+            <p class = "center"> Come & visit us @ Ochoa Building </p>
+
+          </div>
+          <div class  = "col-lg-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.161984966747!2d125.5951496152548!3d8.95721739257424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301eb113d404839%3A0x7bf1caffc508c26a!2sCaraga%20State%20University!5e0!3m2!1sen!2sph!4v1567575766395!5m2!1sen!2sph" class = "map" frameBorder="0" allowFullScreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class = "copyright">
+        <p> 2018 All Rights Reserved - Caraga State University <strong> Library.</strong>  </p>
+        <p class = "copyright2"> Powered by: CSU E-Library </p>
+      </div>
+    </div>
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v4.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="368045556904819"
+      theme_color="#67b868">
     </div>
     <!-- Bootstrap core JavaScript -->
     <script src="./../vendor/jquery/jquery.min.js"></script>
