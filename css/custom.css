@@ -1001,3 +1001,10 @@ label{
   background: #232222;
   height: 60px;
 }
+.opac-car{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
