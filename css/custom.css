@@ -1008,3 +1008,6 @@ label{
   left: 50%;
   transform: translateX(-50%);
 }
+#carouselExampleIndicators h5{
+  background: #000;
+}
