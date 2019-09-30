@@ -1011,3 +1011,10 @@ label{
 #carouselExampleIndicators h5{
   background: #000;
 }
+#info a{
+  color:#07B5F5
+}
+#info a:hover{
+  text-decoration: none;
+  color:#196B89;
+}
