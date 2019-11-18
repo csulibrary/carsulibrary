@@ -1018,3 +1018,21 @@ label{
   text-decoration: none;
   color:#196B89;
 }
+.zoom-icon{
+  position: absolute;
+  left:90%;
+  top:10px;
+  z-index:2;
+}
+.modal-dialog-zoom {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content-zoom {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
