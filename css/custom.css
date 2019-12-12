@@ -799,6 +799,10 @@ label{
   position: relative;
   top:55px;
 }
+.book-article2{
+  position: relative;
+  top:20px;
+}
 .head-article{
   background: #364e7a;
   width: 100%;
@@ -833,6 +837,11 @@ label{
   position: relative;
   width: 250px;
   height: 306px;
+}
+#book-logo2 img{
+  position: relative;
+  width: 300px;
+  height: 200px;
 }
 #bookweekModal p{
   text-indent:50px;
@@ -935,6 +944,31 @@ label{
   padding-bottom: 5px;
 }
 #bookweekModal .center-div{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+#bookweekModal3 .right-book-btn{
+  border-style: none;
+  padding: 15px;
+  width: 100%;
+  background: #4a6fb3;
+  color: #fff;
+  cursor: pointer;
+  margin: 2px;
+}
+#bookweekModal3 .right-book-btn:hover{
+  background: #3c62a9;
+}
+#bookweekModal3 .header{
+  color: #fff;
+  background: #005826;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#bookweekModal3 .center-div{
   position: relative;
   top:50%;
   transform: translateY(-50%);
