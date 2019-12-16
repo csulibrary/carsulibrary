@@ -496,6 +496,14 @@ label{
   #bookweekModal .book-article1{
     top:0px;
   }
+  .div-portrait{
+    margin-bottom:-424px;
+  }
+}
+@media (max-width: 993px) {
+  .div-portrait{
+    margin-bottom:-424px;
+  }
 }
 @media (max-width: 1198px) {
   #new-landpage .content-header{
@@ -1069,4 +1077,22 @@ label{
   height: auto;
   min-height: 100%;
   border-radius: 0;
+}
+.highlight{
+  background: rgb(0,0,0,.5);
+  padding: 10px;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.portrait{
+  width: 80%;
+  position: relative;
+  left:50%;
+  transform:translateX(-50%);
+
+}
+.div-portrait{
+  margin-bottom: -240px;
 }
